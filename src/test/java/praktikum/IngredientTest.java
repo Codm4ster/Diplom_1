@@ -21,8 +21,8 @@ public class IngredientTest {
     @Parameterized.Parameters
     public static Object[][] getData() {
         return new Object[][] {
-                {IngredientType.SAUCE, "Соус барбекю", 50},
-                {IngredientType.FILLING, "Говяжья котлета", 100},
+                {IngredientType.SAUCE, "chili sauce", 300},
+                {IngredientType.FILLING, "cutlet", 100},
         };
     }
 

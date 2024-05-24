@@ -19,9 +19,9 @@ public class BunTest {
     @Parameterized.Parameters
     public static Object[][] getData() {
         return new Object[][] {
-                {"Обычная булочка", 50},
-                {"Черная булочка", 60},
-                {"Бриошь булочка", 70},
+                {"white bun", 200},
+                {"black bun", 100},
+                {"red bun", 300},
         };
     }
 
