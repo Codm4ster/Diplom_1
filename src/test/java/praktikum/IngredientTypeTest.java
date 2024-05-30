@@ -9,11 +9,11 @@ public class IngredientTypeTest {
 
     @Test
     public void checkIngredientTypeSauceTest() {
-        assertEquals("SAUCE", IngredientType.SAUCE.toString());
+        assertEquals(IngredientType.SAUCE, IngredientType.valueOf("SAUCE"));
     }
 
     @Test
     public void checkIngredientTypeFillingTest() {
-        assertEquals("FILLING", IngredientType.FILLING.toString());
+        assertEquals(IngredientType.FILLING, IngredientType.valueOf("FILLING"));
     }
 }
