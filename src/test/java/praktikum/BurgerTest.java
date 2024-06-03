@@ -25,19 +25,19 @@ public class BurgerTest {
     }
 
     @Test
-    public void setBunsTest() {
+    public void setBuns() {
         burger.setBuns(bun);
         assertEquals(bun, burger.bun);
     }
 
     @Test
-    public void addIngredientTest() {
+    public void addIngredient() {
         burger.addIngredient(ingredient);
         assertEquals(1, burger.ingredients.size());
     }
 
     @Test
-    public void removeIngredientTest() {
+    public void removeIngredient() {
         burger.addIngredient(ingredient);
         burger.addIngredient(ingredient2);
         burger.addIngredient(ingredient3);
@@ -48,7 +48,7 @@ public class BurgerTest {
     }
 
     @Test
-    public void moveIngredientTest() {
+    public void moveIngredient() {
         burger.addIngredient(ingredient);
         burger.addIngredient(ingredient2);
         burger.addIngredient(ingredient3);
@@ -60,7 +60,7 @@ public class BurgerTest {
     }
 
     @Test
-    public void getPriceTest() {
+    public void getPrice() {
         burger.setBuns(bun);
         burger.addIngredient(ingredient);
         burger.addIngredient(ingredient2);
@@ -74,7 +74,7 @@ public class BurgerTest {
     }
 
     @Test
-    public void getReceiptTest() {
+    public void getReceipt() {
         burger.setBuns(bun);
         burger.addIngredient(ingredient);
         burger.addIngredient(ingredient2);

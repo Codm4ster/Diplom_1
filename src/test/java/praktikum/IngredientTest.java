@@ -27,21 +27,21 @@ public class IngredientTest {
     }
 
     @Test
-    public void getPriceTest() {
+    public void getPrice() {
         Ingredient ingredient = new Ingredient(type, name, price);
         float actual = ingredient.getPrice();
         assertEquals(price, actual, 0);
     }
 
     @Test
-    public void getNameTest() {
+    public void getName() {
         Ingredient ingredient = new Ingredient(type, name, price);
         String actual = ingredient.getName();
         assertEquals(name, actual);
     }
 
     @Test
-    public void getTypeTest() {
+    public void getType() {
         Ingredient ingredient = new Ingredient(type, name, price);
         IngredientType actual = ingredient.getType();
         assertEquals(type, actual);

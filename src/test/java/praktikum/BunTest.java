@@ -26,14 +26,14 @@ public class BunTest {
     }
 
     @Test
-    public void getNameTest() {
+    public void getName() {
         Bun bun = new Bun(name, price);
         String actual = bun.getName();
         assertEquals(name, actual);
     }
 
     @Test
-    public void getPriceTest() {
+    public void getPrice() {
         Bun bun = new Bun(name, price);
         float actual  = bun.getPrice();
         assertEquals(price, actual, 0);
